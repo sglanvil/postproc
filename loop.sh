@@ -7,3 +7,4 @@ for i in "${member_array[@]}"; do
         echo $CASE $FREQ
         qsubcasper -v CASE,FREQ /glade/work/sglanvil/CCR/E3SM/regrid.sh
 done
+
